@@ -8,5 +8,5 @@ elseif placeId == 119701952198658 then
 elseif placeId == 85676547462031 then
     loadstring(game:HttpGet("https://pastefy.app/9eHyxa4E/raw"))()
 elseif placeId == 9463737803 then
-    loadstring(game:HttpGet("https://pastefy.app/Rn5BKqux/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/cdqdBrDc/raw"))()
 end
